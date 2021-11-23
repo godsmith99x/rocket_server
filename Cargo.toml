@@ -1,0 +1,14 @@
+[package]
+name = "rocket_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.10"
+
+[dev-dependencies]
+cargo-audit = "0.16.0"
+cargo-expand = "1.0.9"
+cargo-watch = "8.1.1"
